@@ -101,7 +101,7 @@ input.addEventListener("change", (event) => {
     const caption = document.getElementById("caption");
     caption.replaceChildren();
     const img = document.getElementById("img");
-    img.src = URL.createObjectURL(event.target.files[0])
+    img.src = URL.createObjectURL(event.target.files[0]);
     runCoco();
     // What should you run to drive the execuation of all your functions?
 })
